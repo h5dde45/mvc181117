@@ -1,7 +1,9 @@
 package ru.klc.objects;
 
 import javax.validation.constraints.Size;
+import javax.xml.bind.annotation.XmlRootElement;
 
+@XmlRootElement
 public class User {
 
     @Size(min = 6,message = "Имя должно быть больше 6 знаков")
