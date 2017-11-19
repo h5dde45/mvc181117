@@ -15,4 +15,11 @@
 
     <mvc:resources mapping="/resources/**" location="/resources/"/>
 
+    <!--<mvc:interceptors>-->
+        <!--<mvc:interceptor>-->
+            <!--<mvc:mapping path="/*"/>-->
+            <!--<bean class="ru.klc.interceptors.CheckUserInterceptor"/>-->
+        <!--</mvc:interceptor>-->
+    <!--</mvc:interceptors>-->
+
 </beans>
